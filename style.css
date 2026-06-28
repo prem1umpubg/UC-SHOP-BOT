@@ -1,0 +1,170 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#0b0b12;
+color:white;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px;
+background:#111;
+}
+
+.logo{
+font-size:28px;
+font-weight:bold;
+color:#ffd700;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:20px;
+}
+
+.hero{
+text-align:center;
+padding:80px 20px;
+background:linear-gradient(135deg,#1b0036,#000);
+}
+
+.hero h1{
+font-size:42px;
+color:#ffd700;
+margin-bottom:15px;
+}
+
+.hero p{
+font-size:18px;
+margin-bottom:25px;
+}
+
+.btn{
+display:inline-block;
+padding:14px 30px;
+background:#8a2be2;
+color:white;
+text-decoration:none;
+border-radius:10px;
+}
+
+#shop{
+padding:50px 20px;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+}
+
+.card{
+background:#1b1b28;
+padding:25px;
+border-radius:15px;
+text-align:center;
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+.card h3{
+color:#ffd700;
+margin-bottom:10px;
+}
+
+.card p{
+margin-bottom:15px;
+}
+
+button{
+background:#8a2be2;
+color:white;
+border:none;
+padding:12px 20px;
+border-radius:8px;
+cursor:pointer;
+}
+
+.payment{
+    padding:60px 20px;
+    text-align:center;
+}
+
+.payment h2{
+    color:#ffd700;
+    margin-bottom:15px;
+    font-size:32px;
+}
+
+.payment p{
+    color:#ddd;
+    margin:8px 0;
+}
+
+.pay-box{
+    max-width:450px;
+    margin:30px auto;
+    background:#1b1b28;
+    border:2px solid #8a2be2;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 0 20px rgba(138,43,226,.4);
+}
+
+.pay-box h3{
+    color:#ffd700;
+    margin-bottom:20px;
+}
+
+.paid-btn{
+    margin-top:20px;
+    width:100%;
+    padding:15px;
+    background:#00c853;
+    color:#fff;
+    border:none;
+    border-radius:10px;
+    font-size:18px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.paid-btn:hover{
+    background:#00a844;
+    transform:scale(1.03);
+}
+
+
+.order{
+padding:40px 20px;
+text-align:center;
+}
+
+.order input{
+width:90%;
+max-width:450px;
+padding:15px;
+margin:10px;
+border:none;
+border-radius:10px;
+font-size:18px;
+background:#1f1f2e;
+color:white;
+outline:none;
+}
+
+.order input:focus{
+border:2px solid #8a2be2;
+}
